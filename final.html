@@ -1,0 +1,355 @@
+<html>
+    <head><title>網頁</title>
+        <link href="https://cdn.bootcss.com/flexslider/2.6.3/flexslider.min.css" rel="stylesheet">
+        <script src="https://cdn.bootcss.com/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/flexslider/2.6.3/jquery.flexslider-min.js"></script>        
+        <script>
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    rtl: true
+                });
+            });
+        </script>
+    <style>
+       
+        body
+        {
+            margin: 0px;
+        }
+
+        .top{
+           
+            background-color:ghostwhite ;
+            display:flex;
+            justify-content:space-between;
+            color: #DEB887;
+            align-items: center;
+        }
+        .top .logo{
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .top .logo img{
+            width:60px;
+            vertical-align: middle;
+        }
+        .top .top-nav{
+           
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .top .top-nav a{
+            font-size: 25px;
+            color:#DEB887;
+            text-decoration: none;
+        }
+        .nav{
+           
+           background-color:#000000;
+           display: flex;
+           justify-content: center;
+       }
+
+       .nav ul{
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color:#000000;
+
+        
+       }
+       
+       .nav ul li{
+           float: left;
+       }
+       .nav ul li a{
+           display: block;
+           color:white;
+           text-align: center;
+           padding: 14px 16px;
+           text-decoration: none;
+           
+       }
+       .nav li a:hover{
+            background-color: #D0D0D0;
+       }
+       .dropdown:hover .dropdown-content {
+            display: block;   /*使用block呈現上下排列*/
+       }
+        li.dropdown:hover{
+            background-color: #333;  /*設定背景顏色*/
+       }
+        .dropdown-content {  /*設定下拉選單內容格式*/
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+        .dropdown-content a {/*設定下拉選單連結內容格式*/
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+ 
+
+        .slider{
+            
+        }
+        .banner{
+            
+            background-image:linear-gradient(#D3A4FF,#F0F0F0);
+            text-align: center;
+            color:darkgray;
+        }
+        .banner h1{
+    padding: 20px;
+        }
+ .faculty{
+            
+        }
+        .faculty {
+    display: block;
+    justify-content: center;
+    background-color:white;
+    padding:40px;
+}
+.faculty h2 {
+    font-size: 25px;
+    color: #DEB887;
+    padding-bottom:40px;
+    align-items: center;
+    text-align: center;
+}
+.faculty .container {
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.faculty .teacher{
+    /*border:1px solid blue;*/
+    display:block;
+    text-decoration: none;
+}
+.faculty .teacher img{
+    height: 200px;
+    width: 200px;
+}
+.faculty .teacher h3{
+    color: White;
+    background-color: #DEB887;
+    text-align: center;           
+}
+.faculty1 {
+    display: block;
+    justify-content: center;
+    background-color:white;
+    padding:40px;
+}
+.faculty1 h2 {
+    font-size: 25px;
+    color: #DEB887;
+    padding-bottom:40px;
+    align-items: center;
+    text-align: center;
+}
+.faculty1 .container {
+    /*border:1px solid red;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.faculty1 .teacher{
+    /*border:1px solid blue;*/
+    display:block;
+    text-decoration: none;
+}
+.faculty1 .teacher img{
+    height: 200px;
+    width: 200px;
+}
+.faculty1 .teacher h3{
+    color: White;
+    background-color: #DEB887;
+    text-align: center;           
+}
+        .contact{
+            height:300px;
+            background-color:white ;
+        }
+    .contact {
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;                
+}
+.contact h2{
+    color: #DEB887;
+    font-size: 25px;
+    text-align: center; 
+}
+.contact .infos{
+    display:flex;
+    margin-top: 30px; 
+    justify-content: center;
+}
+.contact .infos .left{
+    display:block;
+    text-align: left;
+    margin-right: 100px;
+}
+.contact .infos .left b{
+    display:block;
+    text-align: left;
+    margin-top: 10px;
+    text-decoration: bold;
+    color: Gray;
+    font-size: 18px;
+    line-height: 40px;
+}
+.contact .infos .left span{
+    display:block;
+    text-align: left;
+    margin-top: 10px;
+    color: rgba(39,40,34,0.5);
+    font-size: 16px;
+    padding-left: 27px;
+}
+.contact .infos .right{
+    height: 200px;               
+}
+.contact .infos .right iframe{
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(39,40,34,0.50);
+}
+
+
+.footer{
+    color:white ;
+    display: flex;
+    justify-content: center;
+    background-color:#D3A4FF;
+    padding: 20px 0;
+}
+
+        body{ font-family: "Ma Shan Zheng", cursive;}
+
+    </style>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+</head>
+    <body>
+        
+        <div class ="top">
+            <div class ="logo">
+                <img src =logo.PNG>
+                Q Q 伊 娃 寵 物 店
+            </div>
+            <div class = "top-nav">
+                <a href=#>加入會員</a>
+                <a href=#>加入購物車</a>
+                <a href=#>查詢訂單</a>
+                
+            </div>
+        </div>
+        
+       <div class="nav">
+    
+            <ul>
+                <li><a herf=#>首頁</a></li>
+                <li><a href=#>關於伊娃</a></li>
+                <li class ="dropdown"><a href="#faculty">狗狗品種</a>
+                    <div class="dropdown-content">
+                        <a href="#faculty">博美犬</a>
+                        <a href="#faculty">柴犬</a>
+                        <a href="#faculty">薩摩耶犬</a>
+                    </div>
+                </li>
+                <li class ="dropdown"><a href="#faculty1">狗狗商品</a>
+                    <div class="dropdown-content">
+                        <a href="#faculty1">肉乾肉條</a>
+                        <a href="#faculty1">保健品</a>
+                        <a href="#faculty1">美容護理</a>
+                    </div>
+                </li>   
+                <li><a href=#>聯絡資訊</a></li>
+            </ul>
+        </div>
+        <div class="slider">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li><img src="下載 (1).jfif" /></li>
+                    <li><img src="下載.jfif" /></li>
+                    <li><img src="q.jpg" /></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class ="banner">
+            <h1>可愛狗狗</h1>
+            <h1>品種多多</h1>
+            <h1>用品多多</h1>
+            <h1>愛護狗狗</h1>
+        </div>
+            <div class="faculty" id="faculty">
+                <h2>狗狗品種</h2>
+                <div class="container">
+                    <a class="teacher" href="">
+                        <img src="https://thumb.photo-ac.com/84/84e2e1be2251e2060d31de848bf01722_w.jpeg" />
+                        <h3>博美犬</h3>
+                    </a>
+                    <a class="teacher" href="">
+                        <img src="https://img.gogoshop.cloud/972b1b66/kl7AMvknsrZ.jpg" />
+                        <h3>柴犬</h3>
+                   </a>
+                   <a class="teacher" href="">
+                       <img src="161152911.jpg" />
+                       <h3>薩摩耶犬</h3>
+                   </a>        
+                </div>
+            </div>
+        
+            <div class="faculty1" id="faculty1">
+                <h2>狗狗商品</h2>
+                <div class="container">
+                    <a class="teacher" href="">
+                        <img src="https://image-cdn-flare.qdm.cloud/q689bf51476cc2/image/data/2023/12/19/e28bf68ed7796beebc2b9c2dc6b9f70a.jpg" />
+                        <h3>肉乾肉條</h3>
+                    </a>
+                    <a class="teacher" href="">
+                        <img src="https://image-cdn-flare.qdm.cloud/q64ab021e86b9e/image/data/2023_Product_by_SF/%E7%8A%AC%E7%94%A8%E4%BF%9D%E5%81%A5%E5%9A%BC%E9%8C%A0/%E7%8A%AC%E7%94%A8%E8%85%B8%E9%81%93%E6%A9%9F%E8%83%BD%E4%BF%9D%E5%81%A5%E5%9A%BC%E9%8C%A0.png" />
+                        <h3>保健品</h3>
+                   </a>
+                   <a class="teacher" href="">
+                       <img src="https://img.tw.my-best.com/product_images/2a3841cee2239f5ec41da542ecd13dff.jpg?ixlib=rails-4.3.1&q=70&lossless=0&w=800&h=800&fit=clip&s=bd3b0ee695e7623e698c4cc750797140" />
+                       <h3>美容護理</h3>
+                   </a>        
+                </div>
+            </div>
+            <div class="contact" id="about">
+                <h2>聯絡資訊</h2>
+                <div class="infos">
+                  <div class="left">
+                    <b>彩提髮藝</b>
+                    <span>300新竹市北區光華南街50-1號</span>
+                    <b> 電話:035315993</b>
+                    <b> 營業時間：9:00~20:00</b>
+                  </div>
+                  <div class="right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1810.6853195300407!2d120.97386420432086!3d24.816995468841757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346835ce6f2e47d9%3A0xc2c92eda2296f446!2z5b2p5o-Q6auu6Jed!5e0!3m2!1szh-TW!2stw!4v1734507465819!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="footer">
+                &copy;Copyright 2022 Department of Information Management, MUST. All rights reserved. 維護者 ZHANG,YI-ZHEN
+             </div>
+    </body>
+</html>
